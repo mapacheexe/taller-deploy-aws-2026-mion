@@ -13,7 +13,7 @@ env:
   ECR_REPOSITORY: taller-deploy-aws-2026-repository-mion
   ECS_CLUSTER: taller-deploy-aws-2026-cluster-mion
   ECS_SERVICE: taller-deploy-asw-2026-task-mion-service-0x8honr8
-  TASK_DEFINITION: taller-deploy-aws-2026-task-mion
+  TASK_DEFINITION: taller-deploy-asw-2026-task-mion
 
 jobs:
   deploy:
