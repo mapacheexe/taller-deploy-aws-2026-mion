@@ -10,10 +10,10 @@ permissions:
 env:
   AWS_REGION: eu-west-1
   ACCOUNT_ID: 822414985516
-  ECR_REPOSITORY: taller-deploy-aws-2026-repository-rnez
-  ECS_CLUSTER: taller-deploy-aws-2026-cluster-rnez
+  ECR_REPOSITORY: taller-deploy-aws-2026-repository-mion
+  ECS_CLUSTER: taller-deploy-aws-2026-cluster-mion
   ECS_SERVICE: taller-deploy-asw-2026-task-mion-service-0x8honr8
-  TASK_DEFINITION: taller-deploy-aws-2026-task-rnez
+  TASK_DEFINITION: taller-deploy-aws-2026-task-mion
 
 jobs:
   deploy:
